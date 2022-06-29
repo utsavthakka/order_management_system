@@ -1,5 +1,7 @@
 from rest_framework import serializers
 from .models import Order, OrderQuantity, Product, User
+import logging
+logger = logging.getLogger("__name__")
 
 ## Serializer to create user as consumer
 class ConsumerSerializer(serializers.ModelSerializer):

@@ -35,6 +35,13 @@ After triggering the above command you will see
 ```sh
 Starting development server at http://127.0.0.1:8000/
 ```
+To Test the unit test fire the below command 
+```sh
+python manage.py test
+or 
+python3 manage.py test
+```
+
 ## API Reference
 
 Create user api with the default type consume
